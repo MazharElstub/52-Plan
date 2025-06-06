@@ -1,6 +1,5 @@
 import { defineApp } from "convex/server";
-import { DataModel } from "./_generated/dataModel";
 
-const app = defineApp<DataModel>();
+const app = defineApp();
 
 export default app;
